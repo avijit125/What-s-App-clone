@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Caveat:wght@600&family=Cormorant+Garamond:ital@1&family=Oswald&display=swap');
+
+
+.chat{
+    flex: 0.65;
+    display: flex;
+    flex-direction: column;
+}
+
+.chat-header{
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    background-color: #A9F5A1;
+    border-bottom: 1px solid #e2e2e2;
+}
+
+.header-info{
+    flex: 1;
+    padding-left: 20px;
+}
+
+.header-info > h3{
+    margin-bottom: 3px;
+    font-weight: 500;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Oswald', sans-serif;
+}
+
+.header-info > p{
+    color: #41566A;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Caveat', cursive;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+.header-right{
+    display: flex;
+    justify-content: space-between;
+    min-width: 100px;
+}
+.chat-msg{
+    position: relative;
+    font-size: 16px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+    width: fit-content;
+    margin-bottom: 30px;
+}
+
+.chat-reciever{
+    margin-left: auto;
+    background-color: #76D66C;
+}
+.chat-timestamp{
+    margin-left: 10px;
+    /* margin-top: 36px; */
+    font-size: xx-small;
+    color: #3A3557;
+}
+.chat-name{
+    position: absolute;
+    top: -25px;
+    color: black;
+}
+
+.chat-body{
+    flex:1;
+    background-color: #FFE77AFF;
+    padding: 30px;
+    overflow-y: scroll;
+}
+
+.chat-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 62px;
+    background-color: whitesmoke;
+    border-top: 1px solid #e2e2e2;
+}
+
+.chat-footer > form{
+    flex: 1;
+    display: flex;
+}
+
+.chat-footer > form > input{
+    flex: 1;
+    border-radius: 30px;
+    padding: 10px;
+    border: none;
+    outline: none;
+}
+
+.chat-footer > form > button{
+    display: none;
+}
+
+.chat-footer > .MuiSvgIcon-root{
+    color: gray;
+    padding: 10px;
+}
